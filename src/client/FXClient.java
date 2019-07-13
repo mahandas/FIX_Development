@@ -47,7 +47,7 @@ public class FXClient {
 	 * @param args
 	 *
 	 * Command line args : 0. Properties File path
-	 * eg : "..\\Dat\\FX\\UBSFX_Config.properties"
+	 * eg : "..\\Dat\\FX\\Config.properties"
 	 */
 
 	public static void main(String[] args) {
