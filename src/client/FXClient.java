@@ -53,7 +53,7 @@ public class FXClient {
 	public static void main(String[] args) {
 		BasicConfigurator.configure(); //enough for configuring log4j
 		Logger.getRootLogger().setLevel(Level.INFO);
-		UBSFXClient client = new UBSFXClient();
+		FXClient client = new FXClient();
 		client.initializeParams(args);
 		client.startClient();
 	}
